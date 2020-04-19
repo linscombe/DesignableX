@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "DesignableX",
             dependencies: []),
-        .testTarget(
-            name: "DesignableXTests",
-            dependencies: ["DesignableX"]),
     ]
 )
